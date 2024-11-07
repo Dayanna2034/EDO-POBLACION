@@ -1,0 +1,415 @@
+/*CUERPO DE LA PAGINA*/
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* Ajusta el video para cubrir toda la pantalla */
+    z-index: -1;            /* Envía el video detrás del contenido */
+}
+
+/*Menu*/
+ul {
+    background-color: rgba(0, 0, 0, 0.341);
+    position: sticky; /* menu estatico al desplazarse */
+    top: 0;
+    list-style-type: none; /* sin viñetas*/
+    margin: 0px 0px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.001);
+    border-radius: 0px 0px 30px 30px;
+}
+
+
+/* elementos de menu*/
+li{
+    padding: 10px 40px;
+}
+
+.cortes { /* volver horizontal categorias */
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+
+
+li a {
+    color: rgb(197, 197, 197);
+    padding: 1px 0px; /* separacion de categorias*/
+    text-decoration: none;
+    display: block;
+    cursor:pointer;
+}
+
+
+li a:hover:not(.action),
+li c:hover:not(.action),
+li d:hover:not(.action),
+li e:hover:not(.action) {
+    opacity: 0.2; /* opacidad al pasar el mouse*/
+}
+
+
+/* INICIO*/
+
+.inicio img{
+    width: 100%;
+  }
+
+.background-video{
+    width: 100%;
+}
+
+.texto1{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: -20px;
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.texto2{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: -20px;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.texto3{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: 25px;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+
+
+/*1 CORTE*/
+.inicio{
+    margin-top: -120px;
+    object-fit: cover;      /* Ajusta el video para cubrir toda la pantalla */
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%; /* Baja la posición del filtro */
+    left: 0;
+    width: 100%;
+    height: 60%; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Filtro oscuro */
+}
+
+.texto4 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.texto5 {
+    font-family: "Anton", sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.texto6 {
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+
+.introduccion{
+    margin: 0px;
+    background-color: rgb(213, 213, 213);
+    top: 0;
+    padding: 15px 50px;
+}
+
+.titulo{
+    margin: 0px;
+    text-align: center; /* Texto centrado */
+    font-family: "Anton", sans-serif;
+    font-size: 45px; /* tamaño letra*/
+}
+
+.texto{
+    font-family: "Gowun Batang", serif;
+    margin-top: -5px;
+    font-size: 20px;
+    
+}
+
+/* Features Section */
+
+.features-section {
+    padding: 50px;
+    background-color: #11111100;
+    text-align: center;
+    margin-top: 5px; /* Ajusta este valor para bajar la sección */
+}
+
+.features-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px ;
+    text-align: justify;
+    font-family: "sans serif", monospace ;
+    font-weight: bolder;
+     
+}
+
+.features-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px ;
+    text-align: justify;
+    font-family: "sans serif", monospace ;
+    font-weight: bolder;
+}
+
+
+.features-section p {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    font-family:  "Monospace" ;
+
+    
+}
+.features-section p1 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-family: "sans serif", monospace ;
+    font-weight: bolder;
+}
+
+.feature-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.feature-items p{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 17px;
+    
+}
+
+.feature-item {
+    width: 30%;
+
+}
+
+.grafica{
+    margin-top: 140px;
+    justify-content: center;
+}
+
+
+/*EXPLICACION*/
+.explicacion {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen principal con el texto */
+    gap: 20px; /* Espacio entre la imagen principal y el contenido de texto */
+}
+
+.contenido-texto {
+    padding: 150px 5px;
+    justify-content: center;
+}
+
+.tangente {
+    padding: 10px 20px;
+}
+
+.ec{
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center; /* Texto centrado */
+    font-family: "Anton", sans-serif;
+    font-size: 30px; /* tamaño letra*/
+}
+
+.tex{
+    font-family: "Gowun Batang", serif;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.sol{
+    font-family: "Gowun Batang", serif;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 0px 50px 0px 50px;
+}
+
+.contenido {
+    padding: 100px 102px;
+    justify-content: center;
+}
+
+
+/* Features Section */
+
+.features-sectionn {
+    padding: 50px;
+    background-color: #11111100;
+    text-align: center;
+    margin-top: 5px; /* Ajusta este valor para bajar la sección */
+}
+
+.features-sectionn h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px ;
+    font-family: "sans serif", monospace ;
+    font-weight: bolder;
+}
+
+
+.feature-itemss {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+
+.feature-itemm {
+    width: 20%;
+
+}
+
+.conten {
+    padding: 50px 15px;
+    justify-content: center;
+}
+
+.textos{
+    background-color: rgb(213, 213, 213);
+    font-family: "Gowun Batang", serif;
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+.titulooo{
+    margin: 0px;
+    text-align: center; /* Texto centrado */
+    font-family: "Anton", sans-serif;
+    font-size: 30px; /* tamaño letra*/
+}
+
+.gra{
+    margin-top: 70px;
+    justify-content: center;
+}
+.graf{
+    margin-top: -20px;
+    justify-content: center;
+}
+
+.grafi{
+    margin-top: 150px;
+    justify-content: center;
+}
+
+
+.k{
+    padding: 10px;
+    font-family: "Gowun Batang", serif;
+    margin-top: -5px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.txt{
+    margin: 0;
+    padding: 170px 10px 0px 0px;
+    margin-top: 0px;
+    font-family: "Anton", sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+.txt1{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: -2px;
+    font-family: "Gowun Batang", serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.txt2{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: 0px;
+    font-family: "Gowun Batang", serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+.txt3{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: 0px;
+    font-family: "Gowun Batang", serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.ref{
+    margin: 0;
+    padding: 0px 10px;
+    margin-top: 0px;
+    font-family: "Gowun Batang", serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}

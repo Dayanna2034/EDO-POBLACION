@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORTE 1</title>
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Gowun+Batang:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Enlace a CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Menú de navegación -->
+    <ul class="menu">
+        <!-- Logo de la universidad con enlace a la página principal -->
+        <li class="action">
+            <a href="index.html">
+                <img src="IMAGENES/LOGO.png" width="50" alt="Logo Universidad">
+            </a>
+        </li>
+
+        <!-- Botones del menú con enlaces a otras páginas -->
+        <div class="cortes">
+            <li><a href="corte1.html">1 Corte ▲</a></li>
+            <li><a href="corte2.html">2 Corte ▼</a></li>
+            <li><a href="corte3.html">3 Corte ▼</a></li>
+        </div>
+
+    </ul>
+
+    <section class="inicio">
+        <div class="imagen-container">
+            <img src="IMAGENES/SALVADOR.jpg" alt="El Salvador">
+            <div class="overlay">
+                <h2 class="texto4">1 CORTE</h2>
+                <h1 class="texto5">EL SALVADOR</h1>
+                <p class="texto6">Escoger un pais y Encontrar 5 curvas solución</p>
+                <k class="k">imagenes de: https://elsalvador.travel/destination/apaneca/</k>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="introduccion">
+            <center>
+                <h1 class="titulo">INTRODUCCIÓN</h1>
+                <p class="texto">Para el primer corte trabajamos con la ecuación diferencial poblacional que afirma
+                    que el cambio de la población es proporcional a esta, a la constante la denominamos
+                    constante crecimiento. a través de esta ecuación modelamos el comportamiento de la función que
+                    calcula
+                    la población en términos del tiempo para dar soluciones explícitas hay que considerar los valores
+                    iniciales que serán escogidos de las 20 muestras que se tomaron.</p>
+            </center>
+        </div>
+
+        <div class="ecuacion">
+            <center>
+                <h1 class="ec">Ecuación Diferencial Poblacional </h1>
+                <p class="tex">trabajamos con la ecuación diferencial poblacional</p>
+                <img src="IMAGENES\poblacional.png" width="70">
+                <p class="tex">Se resuelve esta ecuacion y queda:</p>
+                <img src="IMAGENES\solucion.png" width="70">
+                <p class="tex">Y con esta ecuacion es que trabajamos</p>
+            </center>
+        </div>
+
+
+        <section class="features-section">
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img src="IMAGENES\veintedatos.png" alt="Imagen 1" width="200">
+                    <h4>20 datos recolectados</h4>
+                    <p>Esos datos se toman de una base oficial de sus censos históricos,
+                        lo cual estos datos son muestras repartidas uniformemente.
+                        dicho esto usamos Excel para ubicar los datos seleccionados</p>
+                </div>
+                <div class="feature-item">
+                    <img class="grafica" src="IMAGENES\GRAFICA.png" alt="Imagen 2" width="400">
+                    <h3>Grafica</h3>
+                    <p>Con estos datos logramos graficar donde el año es X y la población es Y.
+                        Con ayuda del programa Excel se logra obtener la ecuación con la línea de tendencia exponencial
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <img src="IMAGENES\tangente.png" alt="Imagen 3" width="290">
+                    <h3>20 datos y tangente</h3>
+                    <p>Escogemos un punto que sería el año 2019 con su respectiva población
+                        para hallar la pendiente de la recta tangente qué pasa por este
+                        punto usando la derivada de la función anterior</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="explicacion">
+            <img class="tangente" src="IMAGENES/tangente.png" alt="Imagen 1">
+            <div class="contenido-texto">
+                <h4>TANGENTE</h4>
+                <p>Para hallar los datos de la tangente se realizo lo siguiente</p>
+                <img class="datos" src="IMAGENES/DATOS.png" alt="Datos">
+                <p>En la ecuacion de la recta tangente se remplazo x por el año</p>
+            </div>
+        </div>
+        
+        <div class="solucion">
+            <center>
+                <h1 class="ec">SOLUCIÓN PAREJAS</h1>
+                <p class="sol">En este paso solucionamos la ecuación diferencial poblacional 
+                    y con esto encontramos "C" y "r" . "r". Esto con ayuda de Matlab.</p>
+                    <img src="IMAGENES\solucion.png" width="70">
+            </center>
+        </div>
+        
+        <div class="explicacion">
+            <img class="tangente" src="IMAGENES\PAREJA.png" alt="Imagen 1">
+            <div class="contenido">
+                <h4>¿COMO?</h4>
+                <p>Con la primera pareja </p>
+                <p>  0 | 2003 | 6.026849</p>
+                <p>16 | 2003  | 6.280.217</p>
+                <p>Primero se hallo C</p>
+                <img class="datos" src="IMAGENES\C.png" alt="Datos" width="120">
+                <p>y despues r</p>
+                <img class="datos" src="IMAGENES\r.png" alt="Datos" width="170">
+            </div>
+            
+        </div>
+
+        <section class="features-sectionn">
+            <div class="feature-itemss">
+                <div class="feature-itemm">
+                    <h4>Solucion Pareja 2</h4>
+                    <img src="IMAGENES\SOLUCION2.png" alt="Imagen 1" width="320">
+                    
+                </div>
+
+                <div class="feature-itemm">
+                    <h4>Solucion Pareja 3</h4>
+                    <img src="IMAGENES\SOLUCION3.png" alt="Imagen 1" width="320">
+                    
+                </div>
+
+                <div class="feature-itemm">
+                    <h4>Solucion Pareja 4</h4>
+                    <img src="IMAGENES\SOLUCION4.png" alt="Imagen 1" width="320">
+                    
+                </div>
+                <div class="feature-itemm">
+                    <h4>Solucion Pareja 5</h4>
+                    <img src="IMAGENES\SOLUCION5.png" alt="Imagen 1" width="320">
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="introduccion">
+            <center>
+                <h1 class="titulo">CONCLUSIONES</h1>
+                <p class="texto">• La población de El Salvador ha experimentado un crecimiento poblacional 
+                    que sigue la ecuación exponencial y=1749e^0.0029t , donde t representa el tiempo en años.</p>
+                <p class="texto">• El único año en el que la población de El Salvador disminuyó fue en 2006, 
+                    en comparación con los demás años.</p>
+                <p class="texto">• La estimación de la población real en 2023 basada en los datos de los años 
+                    2006 y 2013 es la más precisa, con un margen de error del 1.35%. Con la función solución 6091188* e^(0.001997372*t)</p>
+                <p class="texto">• La ecuación de la recta tangente, 17690,9926−29437897,09, describe una línea 
+                    que se aproxima al comportamiento de la población a lo largo del tiempo.</p>
+
+            </center>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORTE 3</title>
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Enlace a CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <ul class="menu">
+        <!-- Logo de la universidad con enlace a la página principal -->
+        <li class="action">
+            <a href="index.html">
+                <img src="IMAGENES/LOGO.png" width="50" alt="Logo Universidad">
+            </a>
+        </li>
+
+        <!-- Botones del menú con enlaces a otras páginas -->
+        <div class="cortes">
+            <li><a href="corte1.html">1 Corte ▼</a></li>
+            <li><a href="corte2.html">2 Corte ▼</a></li>
+            <li><a href="corte3.html">3 Corte ▲</a></li>
+        </div>
+    </ul>
+
+    <section class="inicio">
+        <div class="imagen-container">
+            <img src="IMAGENES\SALVADOR2.jpg" alt="El Salvador">
+            <div class="overlay">
+                <h2 class="texto4">3 CORTE</h2>
+                <h1 class="texto5">EL SALVADOR</h1>
+                <p class="texto6">SOLUCION EXPLICITA - ECUACION POBLACIONAL CON LAPLACE</p>
+                <k class="k">imagenes de: https://elsalvador.travel/destination/apaneca/</k>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="ecuacion">
+            <center>
+                <h1 class="ec">Ecuación Poblacional con LaPlace</h1>
+                <img src="IMAGENES\poblacional.png" width="100">
+                <p class="tex">Se resuelve la ecuación poblacional con la transformada inversa de laplace</p>
+                <img src="IMAGENES\laplace.png" width="180">
+            </center>
+        </div>
+
+        <div class="introduccion">
+            <center>
+                <h1 class="titulooo">PRIMER MODELO SOLUCIÓN EXPLÍCITA</h1>
+            </center>
+        </div>
+
+        <div class="ecuacion">
+            <center>
+                <p class="tex">Con esto seguimos a la solución explícita de la primera ecuación en la cual se tiene el primer modelo 
+                    2003-2019 en la cual podemos apreciar que la población inicial es igual a la condición inicial y tenemos que 
+                    del 2003 al 2019 han transcurrido 16 años</p>
+                <img src="IMAGENES\ec.png" width="300">
+            </center>
+        </div>
+
+        <section class="features-section">
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img src="IMAGENES\rrr.png" alt="Imagen 1" width="350">
+                    <p>Y ahora para obtener el valor de r usamos Matlab con estilo logramos saber que r 
+                        es igual a 0.002573763 aprox</p>
+                </div>
+
+                <div class="feature-item">
+                    <img class="gra" src="IMAGENES\ppp.png" alt="Imagen 3" width="380">
+                    <p>Con esto hallamos la población del 2022 teniendo en cuenta que del 2003 al 2022 hay 19 años entonces P(19)
+                        Esta es nuestra población</p>
+                </div>
+
+
+                <div class="feature-item">
+                    <img class="graf" src="IMAGENES\ee.png" alt="Imagen 3" width="390">
+                    <p>Dicho todo esto podemos ver que nuestro error e del 0,11%</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="ecuacion">
+            <center>
+                <img src="IMAGENES\primer.jpg" width="580">
+            </center>
+        </div>
+
+
+
+        <div class="introduccion">
+            <center>
+                <h1 class="titulooo">SEGUNDO MODELO SOLUCIÓN EXPLÍCITA</h1>
+            </center>
+        </div>
+
+
+        <div class="ecuacion">
+            <center>
+                <img src="IMAGENES\SEGUNDO.png" width="580">
+            </center>
+        </div>
+
+
+
+
+
+
+        <div class="introduccion">
+            <center>
+                <h1 class="titulooo">PRIMER MODELO ECUACION POBLACIONAL</h1>
+            </center>
+        </div>
+        <div class="ecuacion">
+            <center>
+                <p class="tex">En esta aplicamos sustitución de bernoulli para volver a la ecuación lineal, 
+                    aplicamos transformada de laplace, fracciones parciales.</p>
+                <p class="tex">Dicho todo esto tenemos un modelo general que ahora podemos reemplazar</p>
+                <img src="IMAGENES\ONE.png" width="300">
+                <p class="tex">En el primer modelo 2003-2019 para obtener k vamos a sumarle 100 al 2019 y tenemos 
+                    en cuenta que desde el 2003 al 2019 son 16 años entonces P(16)</p>
+                <p class="tex">Reemplazamos la ecuación</p>
+                <img src="IMAGENES\TWO.png" width="300">
+                <p class="tex">Y usamos matlab para calcular r</p>
+                <img src="IMAGENES\THREE.png" width="300">
+                <p class="tex">Y con esto tenemos nuestro modelo particular</p>
+                <img src="IMAGENES\FOUR.png" width="500">
+            </center>
+        </div>
+
+
+        <section class="features-section">
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img class="grafi" src="IMAGENES\FIVE.png" alt="Imagen 1" width="350">
+                    <p>Calculamos la población en el 2022 del 2003 al 2022 hay 19 años entonces</p>
+                </div>
+
+                <div class="feature-item">
+                    <img  src="IMAGENES\SIX.png" alt="Imagen 3" width="380">
+                    <p>Resolvemos usando matlab</p>
+                </div>
+
+
+                <div class="feature-item">
+                    <img src="IMAGENES\SEVEN.png" alt="Imagen 3" width="390">
+                    <p>Ahora encontramos el error.tenemos un error de 0.89% respecto a la población real</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="ecuacion">
+            <center>
+                <img src="IMAGENES\prmr.jpg" width="580">
+            </center>
+        </div>
+
+        <div class="introduccion">
+            <center>
+                <h1 class="titulooo">SEGUNDO MODELO ECUACION POBLACIONAL</h1>
+            </center>
+        </div>
+
+        <section class="features-section">
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img class="grafi" src="IMAGENES\H.png" alt="Imagen 1" width="350">
+                    <p>Calculamos la población en el 2022 del 2003 al 2022 hay 19 años entonces</p>
+                </div>
+
+                <div class="feature-item">
+                    <img  src="IMAGENES\O.png" alt="Imagen 3" width="380">
+                    <p>Resolvemos usando matlab</p>
+                </div>
+
+
+                <div class="feature-item">
+                    <img src="IMAGENES\L.png" alt="Imagen 3" width="390">
+                    <p>Ahora encontramos el error.tenemos un error de 0.89% respecto a la población real</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="ecuacion">
+            <center>
+                <img src="IMAGENES\SGN.jpg" width="580">
+            </center>
+        </div>
+</body>
+</html>
